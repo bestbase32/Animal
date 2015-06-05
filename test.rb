@@ -1,8 +1,5 @@
 class Animal
   attr_accessor :name, :age, :status, :legs 
-  # def show
-  #   puts "I'm #{@name} which have #{legs} legs and I'm #{@age} years old and #{@status}."
-  # end
 
   def initialize(name,age,status)
     @name = name
